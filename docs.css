@@ -178,7 +178,7 @@
   }
 }
 
-.about-container {
+.docs-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -188,20 +188,19 @@
   justify-content: flex-end;
   background-color: var(--dl-color-gray-black);
 }
-.about-container1 {
+.docs-container1 {
   top: 0px;
-  width: 1014px;
+  flex: 0 0 auto;
+  width: 256px;
   bottom: 0px;
-  height: 1002px;
   margin: auto;
   display: flex;
   position: absolute;
+  align-self: center;
   align-items: center;
   flex-direction: column;
   justify-content: center;
 }
-.about-text {
+.docs-text {
   color: var(--dl-color-discord-blurple);
-  width: 431px;
-  height: 473px;
 }
